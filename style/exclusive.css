@@ -82,10 +82,11 @@
               font-family: "Poppins", sans-serif;
               font-weight: 500;
               font-style: normal;
-              text-decoration: line-through;
+
               &:first-child {
                 color: #999999;
                 margin-right: 5px;
+                text-decoration: line-through;
               }
               &:last-child {
                 color: var(--text-orange);
