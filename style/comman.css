@@ -1,0 +1,76 @@
+/* Font color */
+:root {
+  --text-orange: #fa7436;
+  --text-gray: #666666;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: grid;
+  justify-items: center;
+}
+
+.content-area {
+  width: 60%;
+  padding: 50px 0;
+  .content-header {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+.header-title {
+  font-size: 2vw;
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 30px;
+  text-align: center;
+  span {
+    color: var(--text-orange);
+  }
+}
+
+.header-data {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1.1vw;
+  color: var(--text-gray);
+  text-align: center;
+  line-height: 1.8;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button {
+  font-size: 0.9vw;
+  border-style: none;
+  background: none;
+  cursor: pointer;
+  padding: 0.8vw;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #fff;
+  background: var(--text-orange);
+}
+
+.hide {
+  display: none !important;
+}
+
+/*Font-size*/

@@ -1,0 +1,52 @@
+.s-c-1 {
+  .content-area {
+    padding: 20px 0 50px;
+  }
+  background: #fefcfb;
+  .header {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto 40% 20%;
+    margin-bottom: 20px;
+    .logo {
+      font-size: 1.1vw;
+      display: grid;
+      align-items: center;
+      grid-template-columns: auto auto;
+      grid-column-gap: 10px;
+      img {
+        width: 19px;
+      }
+    }
+    nav {
+      padding: 0 15px;
+      ul {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        li {
+          list-style: none;
+          font-size: 0.9vw;
+          cursor: pointer;
+          color: #222222;
+        }
+      }
+    }
+    .entry {
+      display: grid;
+      grid-auto-flow: column;
+      button {
+        &:first-child {
+          color: #fd8d3a;
+          background: none;
+        }
+        &:last-child {
+          color: #fff;
+          background: var(--text-orange);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.s-c-3 {
+  background: #fefcfb;
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    .card {
+      width: 25%;
+      background: #fff;
+      border: 1px solid rgba(185, 185, 185, 0.2);
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      .card-top {
+        img {
+          max-width: 100%;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+        }
+      }
+      .card-bottom {
+        padding: 15px;
+        .bottom-area-1 {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .card-title {
+            font-size: 1vw;
+            color: #222222;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+          }
+          .card-rating {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span > i {
+              color: gold;
+              margin-right: 5px;
+            }
+            .rating {
+              font-size: 0.8vw;
+              font-family: "Poppins", sans-serif;
+              font-weight: 400;
+              font-style: normal;
+            }
+          }
+        }
+        .bottom-area-2 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .card-location {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span > i {
+              color: #b3b3b3;
+            }
+            .location {
+              margin-left: 5px;
+              font-size: 0.8vw;
+              color: var(--text-gray);
+              font-family: "Poppins", sans-serif;
+              font-weight: 400;
+              font-style: normal;
+            }
+          }
+          .card-price {
+            font-size: 0.7vw;
+            display: flex;
+            align-items: center;
+            span {
+              padding: 5px;
+              font-family: "Poppins", sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              text-decoration: line-through;
+              &:first-child {
+                color: #999999;
+                margin-right: 5px;
+              }
+              &:last-child {
+                color: var(--text-orange);
+                background: #ffe7db;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
