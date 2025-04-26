@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-bottom: 30px;
     .card {
       width: 25%;
       background: #fff;
@@ -63,6 +64,7 @@
             justify-content: space-between;
             span > i {
               color: #b3b3b3;
+              font-size: 0.8vw;
             }
             .location {
               margin-left: 5px;

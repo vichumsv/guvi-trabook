@@ -1,0 +1,96 @@
+.s-c-4 {
+  background: #fefcfb;
+  .content-area {
+    .content-header {
+      margin-bottom: 0px;
+    }
+    .arrow-container {
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 30px;
+      .card {
+        width: 33.33%;
+        background: #fff;
+        border: 1px solid rgba(185, 185, 185, 0.2);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .card-top {
+          img {
+            max-width: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+          }
+        }
+        .card-bottom {
+          padding: 15px;
+          .bottom-area-1 {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1vw;
+            .card-title {
+              color: #222222;
+              font-family: "Poppins", sans-serif;
+              font-style: normal;
+            }
+            .card-price {
+              color: var(--text-orange);
+              font-family: "Poppins", sans-serif;
+              font-style: normal;
+              letter-spacing: 1px;
+            }
+          }
+          .bottom-area-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .card-duration {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              span > i {
+                color: var(--text-orange);
+                font-size: 0.8vw;
+              }
+              .duration {
+                margin-left: 5px;
+                font-size: 0.8vw;
+                color: var(--text-gray);
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+              }
+            }
+            .card-rating {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              span > i {
+                color: gold;
+                margin-right: 5px;
+              }
+              .rating {
+                color: var(--text-gray);
+                font-size: 0.8vw;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
