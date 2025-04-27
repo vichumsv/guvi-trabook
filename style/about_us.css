@@ -1,0 +1,96 @@
+.s-c-5 {
+  background: #f7f8fc;
+  .content-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content-header {
+      width: 30%;
+      .header-title {
+        text-align: left;
+      }
+      .header-data {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+      }
+      .arrow-container {
+        margin-top: 20px;
+        justify-content: flex-start;
+      }
+    }
+    .content-body {
+      width: 48%;
+      .about-us {
+        position: relative;
+        background: #f7f8fc;
+        margin-top: 30%;
+        box-shadow: 0 0 30px 0px rgba(196, 196, 196, 0.5);
+        padding: 25px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        font-size: 1vw;
+        p {
+          color: #444444;
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          margin-bottom: 20px;
+        }
+
+        .name {
+          color: #222222;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+          font-size: 1vw;
+          margin-bottom: 10px;
+        }
+        .location {
+          color: #666666;
+          font-size: 0.9vw;
+        }
+        .first {
+          .name {
+            color: #666666;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1vw;
+            margin-bottom: 10px;
+          }
+          .location {
+            color: #666666;
+            font-size: 0.9vw;
+          }
+        }
+        .second {
+          position: absolute;
+          width: 100%;
+          top: -50%;
+          right: 10%;
+          background: #fff;
+          padding: 25px;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+        }
+
+        .mike {
+          position: absolute;
+          top: -19%;
+          left: -9%;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+        }
+      }
+    }
+  }
+}

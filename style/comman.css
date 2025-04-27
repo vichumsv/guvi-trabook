@@ -101,6 +101,10 @@ button {
   }
 }
 
+.visibility {
+  visibility: hidden;
+}
+
 .hide {
   display: none !important;
 }
