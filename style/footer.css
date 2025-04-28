@@ -1,0 +1,182 @@
+.s-c-7 {
+  background: #f7f8fc;
+  .content-area {
+    padding-top: 14vw;
+    padding-bottom: 30px;
+    .footer {
+      position: relative;
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+        .f-col {
+          width: auto;
+          &:first-child {
+            width: 50%;
+            .col-title {
+              margin-bottom: 20px;
+              color: #222222;
+              font-family: "Volkhov", serif;
+              font-weight: 700;
+              font-style: normal;
+              span {
+                display: inline-block;
+              }
+              .title {
+                font-size: 1vw;
+                margin-right: 0.4vw;
+              }
+              .logo {
+                width: 0.8vw;
+                img {
+                  max-width: 100%;
+                }
+              }
+            }
+            .col-content {
+              width: 50%;
+              font-size: 0.8vw;
+              margin-bottom: 20px;
+              color: #666666;
+              font-family: "Poppins", sans-serif;
+              font-weight: 500;
+              font-style: normal;
+            }
+            .col-logos {
+              display: flex;
+              align-items: center;
+              gap: 15px;
+              .col-logo {
+                width: 2.1vw;
+                height: 2vw;
+                font-size: 0.8vw;
+                color: #444;
+                background: #fff;
+                box-shadow: 0px 0 1px 0px rgba(102, 102, 102, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                &:nth-child(2) {
+                  background: var(--text-orange);
+                  color: #fff;
+                }
+              }
+            }
+          }
+          .col-title {
+            font-size: 0.9vw;
+            color: #222222;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            margin-bottom: 20px;
+          }
+          .col-link {
+            li {
+              font-size: 0.8vw;
+              color: #666666;
+              list-style: none;
+              margin-bottom: 10px;
+              font-family: "Poppins", sans-serif;
+              font-weight: 400;
+              font-style: normal;
+              cursor: pointer;
+              &:last-child {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8vw;
+        color: rgba(102, 102, 102, 0.7);
+        margin-top: 30px;
+      }
+      .subscribe-container {
+        position: absolute;
+        width: 100%;
+        bottom: 126%;
+        padding: 5vw 30px;
+        background: var(--text-orange);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .subscribe-inner {
+          position: relative;
+          width: 50%;
+          margin: 0 auto;
+          z-index: 1;
+          .title {
+            font-size: 2vw;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+          .ui-area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            .user-mail-area {
+              display: flex;
+              align-items: center;
+              .email-cion {
+                font-size: 0.9vw;
+                margin-right: 8px;
+                padding-top: 5px;
+                img {
+                  max-width: 100%;
+                }
+              }
+              .user-email {
+                border: none;
+                &:focus-visible {
+                  border: none;
+                }
+              }
+            }
+          }
+        }
+        .rings {
+          position: absolute;
+          width: 35%;
+          left: 0;
+          bottom: 0;
+          img {
+            max-width: 100%;
+          }
+        }
+        .trees {
+          position: absolute;
+          width: 10%;
+          right: 0;
+          top: 0;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
